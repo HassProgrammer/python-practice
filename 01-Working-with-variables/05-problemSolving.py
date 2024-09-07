@@ -1,0 +1,1 @@
+print(len(input("Enter a word or name:\t")))
