@@ -25,3 +25,19 @@ print(len(chai_types))
 # Add another item on list
 chai_types["Earl Gray"] = "Citrus"
 print(chai_types)
+
+#Nested Dictionary
+tea_shop = {
+    "chai": {"Masala": "Spicy", "Ginger": "Zesty"},
+    "Tea": {"Green": "Mild", "Black": "Strong"}
+}
+print(tea_shop)
+print(tea_shop["chai"])
+print(tea_shop["chai"]["Ginger"])
+
+#Make a NEw Dictionary by using list
+keys = ["Masala", "Ginger", "Lemon"]
+default_value = "Delicious"
+
+new_dict = dict.fromkeys(keys, default_value)
+print(new_dict)
