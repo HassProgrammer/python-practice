@@ -25,3 +25,5 @@ elif c_or_r == 'r':
             print(f"{hours:02}:{minutes:02}:{secondes:02}")
             time.sleep(1)
         print("Time is up!")
+else:
+      print("404 Not found")
