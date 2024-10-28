@@ -38,3 +38,21 @@ f6.close()
 # f7 = open("new file.txt", "w")
 # f7.write()
 # f7.close
+
+# With Keyword read mood
+with open("14-File/demo2.txt", "r") as f8:
+    data = f8.read()
+    print(data)
+
+# With keyword write mood
+with open("14-File/new file.txt", "w") as f:
+    data = f.write("TOday i'm feeling sooo lazy")
+    print(data)
+
+# # With keyword make a new file
+# with open("anotherNew.txt", "w") as f:
+#     f.write()
+
+# # Delete a file
+# import os
+# os.remove("14-File/anotherNew.txt")
