@@ -3,5 +3,5 @@ try:
     with open(file_path, "r") as file:
         data = file.read()
         print(data)
-except:
+except FileNotFoundError:
     print("File not found!!")
