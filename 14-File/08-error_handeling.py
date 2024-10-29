@@ -5,3 +5,5 @@ try:
         print(data)
 except FileNotFoundError:
     print("File not found!!")
+except PermissionError:
+    print("You do not have permission to read that file!!")
