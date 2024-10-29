@@ -12,3 +12,4 @@ with open("14-File/06.txt", "r") as o:
             num = num + data[i]
         
 
+ 
