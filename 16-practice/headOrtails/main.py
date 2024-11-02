@@ -1,0 +1,3 @@
+import headOrtailCal
+headOrtailCal.headOrTail()
+  
