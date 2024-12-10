@@ -1,1 +1,1 @@
-01889365698
+print(student1.percentage)
